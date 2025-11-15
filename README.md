@@ -8,7 +8,7 @@
 - Validasi username dan password berdasarkan data di tabel `akun`.
 - Jika login berhasil, akan ditampilkan pesan:
   > "Selamat datang, username!"
-- Jika login gagal, aplikasi menampilkan pesan kesalahan.
+- Jika login gagal, aplikasi menampilkan pesan kesalahann.
 
 ---
 
