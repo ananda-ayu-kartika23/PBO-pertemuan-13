@@ -10,7 +10,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 import javax.swing.JOptionPane;
-import tugasp12.DataPendudukk;
+
+
 
 /**
  *
@@ -208,7 +209,7 @@ public class Login extends javax.swing.JFrame {
                             "Login berhasil! Selamat datang, " + txtUsername.getText() + ".",
                             "Sukses", JOptionPane.INFORMATION_MESSAGE);
 
-                    new DataPendudukk().setVisible(true);
+                   
                     dispose();
                 } else {
                     JOptionPane.showMessageDialog(this,
